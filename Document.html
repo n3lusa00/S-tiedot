@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Tyyli/tyyli.css">
+</head>
+<body>
+    <div id="weather-info">
+        <h2>Weather Information</h2>
+        <div class="location">
+            <p>Sijainti: <span id="location"></span></p>
+        </div>
+        <div class="temperature">
+            <p>Lämpötila: <span id="temp"></span>°C</p>
+        </div>
+        <div class="wind-speed">
+            <p>Tuulen nopeus: <span id="speed"></span> m/s</p>
+        </div>
+        <div class="wind-direction">
+            <p>Tuulen suunta: <span id="direction"></span></p>
+        </div>
+        <div id="description"></div>
+        <div class="image-wrapper">
+            <img src="" alt="Weather Icon" class="weather-icon">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="Java/funktions.js" defer></script>
+</body>
+</html>
